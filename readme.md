@@ -14,10 +14,6 @@
 
 在[2019-2020全球疫情](https://zh.wikipedia.org/zh-hans/2019冠状病毒病疫情)影响下就业形势严峻，该书也可作为一本求职者快速入门IT方向的就业指南。
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
-
-
-
-
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> 本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。 💗 [小鱼儿yr系统](https://www.yrxitong.com)、[系统总裁](https://www.sysceo.com/Software/)
 
 
