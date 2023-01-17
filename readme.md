@@ -16,6 +16,11 @@
 
 ---
 
-💗 [小鱼儿yr系统](https://www.yrxitong.com)、[apphot 烈火](https://apphot.cc)、[大眼仔旭](http://www.dayanzai.me)、[系统总裁](https://www.sysceo.com/Software/)
+<div align="center">
+
+ 💗 [小鱼儿yr系统](https://www.yrxitong.com)、[apphot 烈火](https://apphot.cc)、[大眼仔旭](http://www.dayanzai.me)、[系统总裁](https://www.sysceo.com/Software/)
+
+</div>
+
 
 
