@@ -88,6 +88,7 @@ module.exports = {
                 children: [
                   ['/express/script/bat.md','Batch批量可并发业务编程'],
                   ['/express/secure/trojan','信息病毒防控录'],
+                  ['/express/secure/aliyund','阿里云主机被攻击记录'],
                   ['/express/secure/blue','永恒之蓝再处理'],
                   ['/express/secure/fwmreg','防火墙邮件拦截与杀软残留项清除'],
                   ['/express/secure/cunchu','存储知识储备'],
