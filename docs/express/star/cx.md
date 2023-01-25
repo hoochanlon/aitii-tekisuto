@@ -42,4 +42,4 @@ Awesome-Windows的Contributor多数国内外软件工程师与爱好者自发贡
 * [Lenovo Quick Fix 联想智能解决工具](https://iknow.lenovo.com.cn/detail/kd_26394.html)
 * [超级管理器](https://www.onlinedown.net/soft/1229623.htm)
 * [我的ABC工具箱](https://www.ylmfu.com/soft/html/66216.html)
-* [批量办公工具箱，批量打印文档](https://www.bilibili.com/video/BV1344y1s7st)
+* [批量办公文档处理工具箱](https://www.bilibili.com/video/BV1344y1s7st)
