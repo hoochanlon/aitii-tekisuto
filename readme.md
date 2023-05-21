@@ -1,9 +1,5 @@
 # 《企业网络与主机运维实录》
 
-[![](https://s2.xptou.com/2023/04/23/6445336123f74.jpg)](http://tul.blog.ntu.edu.tw/archives/19642)
-
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
-
 ## Resume
 
 桌维工程师作为IT行业入门的基层职位，相对而言职场权重及薪酬方面偏低。由于工作性质的原因，我们接触人群多及触及领域广，导致我们为了满足用户需求涉足及学习的领域又异常广泛，所以我们也是时常被认为万事通。了解领域广但不深入，仅为满足用户需求又无法形成专业化，于是万事通成了打杂。
