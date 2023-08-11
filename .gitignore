@@ -3,3 +3,4 @@ node_modules/
 .npmignore
 docs/.vuepress/dist
 docs/.vuepress/.git
+.DS_Store
