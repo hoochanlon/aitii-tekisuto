@@ -1,31 +1,30 @@
 name: Deploy GitHub Pages
 
-# 触发条件：在 push 到 master 分支后
 on:
   push:
     branches:
       - master
 
-# 任务
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-  
       - name: Checkout
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
+        uses: actions/checkout@v2
 
-      - name: install
-        run: yarn install 
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install Dependencies
+        run: yarn install
 
       - name: Build
-        run:  yarn docs:build
+        run: yarn docs:build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: docs/.vuepress/dist # The folder the action should deploy.
+          branch: gh-pages
+          folder: docs/.vuepress/dist
