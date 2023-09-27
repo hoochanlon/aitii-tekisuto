@@ -25,7 +25,6 @@ module.exports = {
       // search: false,
       // https://blog.csdn.net/weixin_44495599/article/details/132022146
       // https://baijiahao.baidu.com/s?id=1757414171117173845
-      // http://code.newban.cn/408.html
       algolia: {
         appId: 'Q680O8BRDI',
         apiKey: 'f04165accbaa5767283d0416f0ac63a2',
