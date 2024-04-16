@@ -26,7 +26,7 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> 本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
 
- 💗 [小鱼儿yr系统](https://www.yrxitong.com)、[EPCDIY](https://space.bilibili.com/12590)、[IT Fan](https://helpdesk-pc.com/)、[西西软件园](https://www.cr173.com)、[联想知识库](https://iknow.lenovo.com.cn/detail/kd_26394.html)
+ 💗 [EPCDIY](https://space.bilibili.com/12590)、[硬件茶谈](https://www.bilibili.com/video/BV1jE411e7hw/)、[IT Fan](https://helpdesk-pc.com/)、[联想知识库](https://iknow.lenovo.com.cn/detail/kd_26394.html)
 
 </div>
 
