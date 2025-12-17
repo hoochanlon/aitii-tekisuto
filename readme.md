@@ -1,34 +1,17 @@
-# 《企业信息建设运维实战》
+# 《网络、域控与信息安全》
 
-## Resume
+主要内容：
 
-桌维工程师作为IT行业入门的基层职位，相对而言职场权重及薪酬方面偏低。由于工作性质的原因，我们接触人群多及触及领域广，导致我们为了满足用户需求涉足及学习的领域又异常广泛，所以我们也是时常被认为万事通。了解领域广但不深入，仅为满足用户需求又无法形成专业化，于是万事通成了打杂。
+机房巡检，UPS切换演练
 
-这一现象也是我们重点关注的问题所在，破解的方法无非三点：
+防病毒更新检查
 
-* 让自己了解的知识专项化资质化
-* 让知识成为构建自己的人力资源管理
-* 多接收不同渠道信息，并有管理向意识提升认知
+带宽使用情况
 
-**我们最关键的地方就在于从桌维基础上去以业务角度探究大局视角的观念去做事情，把事情做好；** 在解决用户问题后，适当聊聊工作操作内容进行积累，再回头理解部门及公司业务架构；与此同时，在我们自身专业上也要探究师傅的知识，确切的说是与之关联的更上一层的知识，将其与公司业务体系相结合。
+月度防火墙及核心交换机备份
 
-**我们用已知的信息量进行信息检索提炼出知识，再用知识构建人际关系，通过人际关系带来的线索，在不断地探究线索与信息扩展的过程中达到知识专项化，使自身整体升华。** 在[2019-2022全球疫情](https://zh.wikipedia.org/zh-hans/2019冠状病毒病疫情)影响下，2023年的就业形势严峻，该书也可作为一本求职者快速入门IT方向的就业指南。
- 
- 👉 [了解企业运维](https://blog.csdn.net/lixingying567/article/details/74586842)
+上网权限
 
-## Star History
+域控补丁更新、文件夹管理
 
-[![Star History Chart](https://api.star-history.com/svg?repos=hoochanlon/helpdesk-guide&type=Date)](https://star-history.com/#hoochanlon/helpdesk-guide&Date)
-
----
-
-<div align="center">
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> 本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
-
- 💗 [EPCDIY](https://space.bilibili.com/12590)、[硬件茶谈](https://www.bilibili.com/video/BV1jE411e7hw/)、[IT Fan](https://helpdesk-pc.com/)、[联想知识库](https://iknow.lenovo.com.cn/detail/kd_26394.html)
-
-</div>
-
-
-
+采用 [MDBOOK](https://hellowac.github.io/mdbook-doc-zh/zh-cn/index.html) 构建， 语法样式参考：[rust-lang/mdBook](https://github.com/rust-lang/mdBook/tree/master/guide/src)。

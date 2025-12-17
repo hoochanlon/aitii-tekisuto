@@ -1,0 +1,5 @@
+[book]
+authors = ["123456"]
+language = "en"
+multilingual = false
+src = "src"
