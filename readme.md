@@ -1,17 +1,6 @@
-# 《网络、域控与信息安全》
+# 《AD域控与数据通信网络》
 
-主要内容：
 
-机房巡检，UPS切换演练
+AD 域控与数据通信网络的统一技术文档平台， 覆盖架构设计、部署实施、安全加固与日常运维，帮助你快速搭建与维护稳定可靠的企业网络环境。
 
-防病毒更新检查
-
-带宽使用情况
-
-月度防火墙及核心交换机备份
-
-上网权限
-
-域控补丁更新、文件夹管理
-
-采用 [MDBOOK](https://hellowac.github.io/mdbook-doc-zh/zh-cn/index.html) 构建， 语法样式参考：[rust-lang/mdBook](https://github.com/rust-lang/mdBook/tree/master/guide/src)。
+-

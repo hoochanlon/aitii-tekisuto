@@ -1,0 +1,166 @@
+# Project information
+site_name: AD域控与数据通信网络
+site_url: https://hoochanlon.github.io/aitii-tekisuto
+site_author: Martin Donath
+site_description: >-
+  AD 域控与数据通信网络的统一技术文档平台，
+  覆盖架构设计、部署实施、安全加固与日常运维，帮助你快速搭建与维护稳定可靠的企业网络环境。
+
+# Repository
+repo_name: hoochanlon/aitii-tekisuto
+repo_url: https://github.com/hoochanlon/aitii-tekisuto
+
+# Copyright
+copyright: Copyright &copy; 2020 - 2099 Hoochanlon
+
+# Configuration
+theme:
+  name: material
+  custom_dir: material/overrides
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+# Hooks
+hooks:
+  - material/overrides/hooks/shortcodes.py
+  - material/overrides/hooks/translations.py
+
+# Additional configuration
+extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hoochanlon
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/hoochanlon.bsky.social
+    - icon: fontawesome/brands/twitter
+      link: https://hoochanlon.github.io/twitter
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+not_in_nav: |
+  /tutorials/**/*.md
+
+# Page tree
+nav:
+  - Home: index.md
+  - AD域控:
+    - 活动目录: ad/index.md
+    - 一、安装域控: ad/1-ad-anzhuang-yukong.md
+    - 二、磁盘分区管理: ad/2-ad-cipan-guanli.md
+    - 三、R430 服务器组硬件 RAID: ad/3-ad-r430-raid.md
+    - 四、安装 WSUS: ad/4-anzhuang_wsus.md
+    - 五、添加电脑到域测试组策略效果: ad/5-yu-ruanjian-xianzhi.md
+    - 六、使用组策略部署软件: ad/6-yu-ruanjian-anzhuang.md
+    - 七、添加备份域控制器实现容错: ad/7-beifen-yukong.md
+    - 八、将域控迁移到新买的服务器: ad/8-huanxin-yukong.md
+    - 九、域控及文件服务器迁移方案: ad/9-qianyi-yukong-fang-an.md
+  - 数据通信: 
+    - Datacom: datacom/index.md
+  - Demo: demo/index.md
+  - Blog: https://hoochanlon.moe

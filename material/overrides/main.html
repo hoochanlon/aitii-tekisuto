@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.a2a27114.min.css' | url }}">
+{% endblock %}
+{# 
+  {% block announce %}
+  For updates follow <strong>@hoochanlon</strong> on
+  <a href="https://hoochanlon.github.io/twitter">
+    <span class="twemoji twitter">
+      {% include ".icons/fontawesome/brands/twitter.svg" %}
+    </span>
+    <strong>Twitter</strong>
+  </a>
+ {% endblock %} 
+#}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'assets/javascripts/custom.a0168cc8.min.js' | url }}"></script>
+{% endblock %}
