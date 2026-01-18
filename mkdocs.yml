@@ -3,8 +3,7 @@ site_name: AD域控与数据通信网络
 site_url: https://hoochanlon.github.io/aitii-tekisuto
 site_author: Martin Donath
 site_description: >-
-  AD 域控与数据通信网络的统一技术文档平台，
-  覆盖架构设计、部署实施、安全加固与日常运维，帮助你快速搭建与维护稳定可靠的企业网络环境。
+  本文档覆盖了AD域控与数通的架构设计、部署实施、安全加固与日常运维。
 
 # Repository
 repo_name: hoochanlon/aitii-tekisuto
@@ -162,5 +161,9 @@ nav:
     - 九、域控及文件服务器迁移方案: ad/9-qianyi-yukong-fang-an.md
   - 数据通信: 
     - Datacom: datacom/index.md
+  - 邮件写作:
+    - 邮件写作: email/index.md
+  - 团队协同:
+    - 团队协同: team/index.md
   - Demo: demo/index.md
   - Blog: https://hoochanlon.moe

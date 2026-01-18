@@ -4,25 +4,139 @@
 {% extends "main.html" %}
 {% block tabs %}
   {{ super() }}
-  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <style>
+    .md-header{position:initial}
+    .md-main__inner{margin:0}
+    .md-content{display:none}
+    @media screen and (min-width:60em){.md-sidebar--secondary{display:none}}
+    @media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}
+    
+    /* 主页英雄区域样式 */
+    .mdx-hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    
+    .mdx-hero__content {
+      flex: 1;
+      min-width: 300px;
+      padding-right: 2rem;
+    }
+    
+    .mdx-hero__image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    
+    .mdx-hero__image img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* 按钮网格布局 */
+    .mdx-hero__buttons {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.8rem;
+      margin-top: 1.5rem;
+      width: 100%;
+    }
+    
+    /* 按钮等宽样式 */
+    .mdx-hero__buttons > .md-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0.625em 1em;
+      min-height: 2.75em;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 0.25rem;
+      font-weight: 600;
+      transition: all 0.2s ease;
+    }
+    
+    .mdx-hero__buttons > .md-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    
+    /* 文字处理 */
+    .mdx-hero__buttons .md-button__content {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+    }
+    
+    /* 响应式设计 */
+    @media screen and (max-width: 768px) {
+      .mdx-hero {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      .mdx-hero__content {
+        padding-right: 0;
+        margin-bottom: 2rem;
+      }
+      
+      .mdx-hero__buttons {
+        grid-template-columns: 1fr;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .mdx-hero__buttons {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    /* 高亮第一行按钮 */
+    .mdx-hero__buttons > .md-button:nth-child(1),
+    .mdx-hero__buttons > .md-button:nth-child(2) {
+      background-color: var(--md-primary-fg-color);
+      color: var(--md-primary-bg-color);
+    }
+    
+    .mdx-hero__buttons > .md-button:nth-child(3),
+    .mdx-hero__buttons > .md-button:nth-child(4) {
+      background-color: var(--md-accent-fg-color);
+      color: var(--md-accent-bg-color);
+    }
+  </style>
+  
   <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
-        <div class="mdx-hero__image">
-          <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
-        </div>
         <div class="mdx-hero__content">
           <h1>AD域控与数据通信网络</h1>
           <p>{{ config.site_description }}</p>
-          <!-- <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-            Quick start
-          </a> -->
-          <a href="{{ 'ad/' | url }}" title="Demo" class="md-button">
-            AD 域控
-          </a>
-          <a href="{{ 'datacom/' | url }}" title="Material for MkDocs Insiders" class="md-button">
-            Datacom 数通
-          </a>
+          <div class="mdx-hero__buttons">
+            <a href="{{ 'ad/' | url }}" title="AD 域控" class="md-button md-button--primary">
+              <span class="md-button__content">AD 域控</span>
+            </a>
+            <a href="{{ 'datacom/' | url }}" title="Datacom 数通" class="md-button md-button--primary">
+              <span class="md-button__content">Datacom 数通</span>
+            </a>
+            <a href="{{ 'email/' | url }}" title="邮件写作" class="md-button md-button--accent">
+              <span class="md-button__content">邮件写作</span>
+            </a>
+            <a href="{{ 'team/' | url }}" title="团队协同" class="md-button md-button--accent">
+              <span class="md-button__content">团队协同</span>
+            </a>
+          </div>
+        </div>
+        <div class="mdx-hero__image">
+          <img src="assets/images/illustration.png" alt="技术文档和网络架构示意图" width="1659" height="1200" draggable="false" loading="lazy">
         </div>
       </div>
     </div>
