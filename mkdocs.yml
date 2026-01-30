@@ -159,6 +159,9 @@ nav:
     - 七、添加备份域控制器实现容错: ad/7-beifen-yukong.md
     - 八、将域控迁移到新买的服务器: ad/8-huanxin-yukong.md
     - 九、域控及文件服务器迁移方案: ad/9-qianyi-yukong-fang-an.md
+    - 域控脚本:
+      - Powershell介绍: ad/scripts-desc/index.md
+      - 一键切换Windows系统版本与激活Windows及Office: ad/scripts-desc/1-win-offce-active.md
   - 数据通信: 
     - Datacom: datacom/index.md
   - 邮件写作:
