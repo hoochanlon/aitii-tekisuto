@@ -161,7 +161,11 @@ nav:
     - 九、域控及文件服务器迁移方案: ad/9-qianyi-yukong-fang-an.md
     - 域控脚本:
       - Powershell介绍: ad/scripts-desc/index.md
-      - 一键切换Windows系统版本与激活Windows及Office: ad/scripts-desc/1-win-offce-active.md
+      - 一、一键切换Windows系统版本与激活Windows及Office: ad/scripts-desc/1-win-offce-active.md
+      - 二、快捷修改IP与软件安装自动化: ad/scripts-desc/2-ip-config-and-soft-install.md
+      - 三、根据文本内容批量添加相关权限: ad/scripts-desc/3-add-permission-by-text.md
+      - 四、查看用户相关文件夹权限，以及移除权限: ad/scripts-desc/4-remove-permission.md
+      - 五、域用户人员增删、文件授权、组织单元与域用户恢复: ad/scripts-desc/5-aduser-and-permission-management.md
   - 数据通信: 
     - Datacom: datacom/index.md
   - 邮件写作:
