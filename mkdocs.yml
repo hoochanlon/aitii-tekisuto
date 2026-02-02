@@ -171,8 +171,15 @@ nav:
   - 数据通信: 
     - Datacom: datacom/index.md
     - 电话网络:
-      - 办公室电话接入部署: datacom/phone/1-office-phone-access-deployment.md
-      - 溯源电话运作原理: datacom/phone/2-phone-operation-principle.md
+      - 一、办公室电话接入部署: datacom/phone/1-office-phone-access-deployment.md
+      - 二、溯源电话运作原理: datacom/phone/2-phone-operation-principle.md
+    - 电脑网络:
+      - 一、OA办公网络接入层运营: datacom/pc/1-oa-office-network-access-layer-operation.md
+      - 二、 网络设备组装发展过程略: datacom/pc/2-network-device-assembly-development-process.md
+      - 三、一篇全文让你彻底理清IP地址、子网掩码、网关: datacom/pc/3-ip-address-subnet-mask-gateway.md
+    - 故障排除:
+      - 一、一次因AD服务器断电导致的认证故障分析: datacom/troubleshooting/1-ad-server-power-off-authentication-failure-analysis.md
+
   - 邮件写作:
     - 邮件写作: email/index.md
   - 团队协同:
