@@ -163,13 +163,16 @@ nav:
       - Powershell介绍: ad/scripts-desc/index.md
       - 一、一键切换Windows系统版本与激活Windows及Office: ad/scripts-desc/1-win-offce-active.md
       - 二、快捷修改IP与软件安装自动化: ad/scripts-desc/2-ip-config-and-soft-install.md
-      - 三、根据文本批量添加相关权限: ad/scripts-desc/3-add-permission-by-text.md
+      - 三、根据文本 批量添加相关权限: ad/scripts-desc/3-add-permission-by-text.md
       - 四、查看用户相关文件夹权限，以及移除权限: ad/scripts-desc/4-remove-permission.md
       - 五、域用户人员增删、文件授权、组织单元与域用户恢复: ad/scripts-desc/5-aduser-and-permission-management.md
       - 六、域用户导出到txt文件汇总: ad/scripts-desc/6-aduser-export-to-txt.md
       - 七、Windows基线检查脚本: ad/scripts-desc/7-windows-baseline-script.md
   - 数据通信: 
     - Datacom: datacom/index.md
+    - 电话网络:
+      - 办公室电话接入部署: datacom/phone/1-office-phone-access-deployment.md
+      - 溯源电话运作原理: datacom/phone/2-phone-operation-principle.md
   - 邮件写作:
     - 邮件写作: email/index.md
   - 团队协同:

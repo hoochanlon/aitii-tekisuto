@@ -18,6 +18,10 @@ AD 域控与数据通信网络的统一技术文档平台，覆盖架构设计�
 在项目根目录下运行：
 
 ```powershell
+python -m mkdocs serve
+```
+
+```powershell
 .\start.ps1
 ```
 
