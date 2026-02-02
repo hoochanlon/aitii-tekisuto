@@ -103,9 +103,10 @@ Read-Host "按 Enter 键继续..."
 
 起手
 
-从最简单的起手，单个用户设置文件夹权限。其他相关处理，可参考这篇文章：[suv789 - 当使用 PowerShell 管理 Active Directory（AD）域用户时，以下是一些初级的示例和操作：PowerShell 在进行 AD 域用户管理时的强大功能和灵活性。PowerShell 在自动化和管理 Active Directory 域用户方面的强大能力，能够高效处理复杂的管理任务和安全操作](https://www.cnblogs.com/suv789/p/18284489)
+从最简单的起手，单个用户设置文件夹权限。其他相关处理，可参考这篇文章：
+[suv789 - 当使用 PowerShell 管理 Active Directory（AD）域用户时](https://www.cnblogs.com/suv789/p/18284489)
 
-```
+```cmd
 <#安全权限#>
 
 # 安全权限设置为只读。

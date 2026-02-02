@@ -166,6 +166,7 @@ nav:
       - 三、根据文本内容批量添加相关权限: ad/scripts-desc/3-add-permission-by-text.md
       - 四、查看用户相关文件夹权限，以及移除权限: ad/scripts-desc/4-remove-permission.md
       - 五、域用户人员增删、文件授权、组织单元与域用户恢复: ad/scripts-desc/5-aduser-and-permission-management.md
+      - 六、域用户导出到txt文件汇总: ad/scripts-desc/6-aduser-export-to-txt.md
   - 数据通信: 
     - Datacom: datacom/index.md
   - 邮件写作:
