@@ -2,10 +2,18 @@
 # 一篇全文让你彻底理清IP地址、子网掩码、网关
 
 !!! tip
-    推荐由我写的IP地址计算器软件，以及网页版，这样就不用费劲心思琢磨不符合我们生活方式运算逻辑了。
+    推荐使用IP地址计算器软件，以及其网页版，这样就不用费劲心思琢磨不符合我们生活方式运算逻辑了。
 
       * https://github.com/hoochanlon/network-calculator
-      * https://blog.hoochanlon.moe/network-calculator/
+      * https://hoochanlon.github.io/network-calculator
+
+## 感言前置
+
+不由得感慨，当初早些年的证书如今却成为了笑话...
+
+![](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQqQVpgYXbxdSadz-3BaCS4pGNJ_sFXwACth0AAqouEFRzeFy1RMlF4DgE.png)
+
+当应试成了八股，考证到最后也只是拼家底，拼精力，拼时间的产物，在这个泡沫时代，花了大几千上几万不说，可到头来却是一场空...
 
 
 ## IP地址的设计

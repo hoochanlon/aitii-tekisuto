@@ -179,6 +179,7 @@ nav:
       - 三、一篇全文让你彻底理清IP地址、子网掩码、网关: datacom/pc/3-ip-address-subnet-mask-gateway.md
     - 故障排除:
       - 一、一次因AD服务器断电导致的认证故障分析: datacom/troubleshooting/1-ad-server-power-off-authentication-failure-analysis.md
+      - 二、一次网络环路事故：当“部分不通”演变为全网瘫痪: datacom/troubleshooting/2-network-loop-accident.md
 
   - 邮件写作:
     - 邮件写作: email/index.md
