@@ -1,5 +1,8 @@
 # Powershell
 
+!!! tip
+    推荐专注于多平台（Windows/Linux/Mac）IT运维、系统安全与自动化的一体化脚本工具集: https://github.com/hoochanlon/scripts
+
 ## BAT 与 Powershell 区别
 
 BAT（批处理文件）Windows 传统脚本语言，基于 DOS 命令，主要用于简单的自动化任务。
