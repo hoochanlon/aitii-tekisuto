@@ -39,7 +39,7 @@
     /* 按钮网格布局 */
     .mdx-hero__buttons {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 0.8rem;
       margin-top: 1.5rem;
       width: 100%;
@@ -108,7 +108,8 @@
     }
     
     .mdx-hero__buttons > .md-button:nth-child(3),
-    .mdx-hero__buttons > .md-button:nth-child(4) {
+    .mdx-hero__buttons > .md-button:nth-child(4),
+    .mdx-hero__buttons > .md-button:nth-child(5) {
       background-color: var(--md-accent-fg-color);
       color: var(--md-accent-bg-color);
     }
@@ -127,11 +128,14 @@
             <a href="{{ 'datacom/' | url }}" title="Datacom 数通" class="md-button md-button--primary">
               <span class="md-button__content">Datacom 数通</span>
             </a>
+            <a href="{{ 'security/' | url }}" title="信息安全" class="md-button md-button--accent">
+              <span class="md-button__content">信息安全</span>
+            </a>
             <a href="{{ 'outline-the-docs-scheme/' | url }}" title="文案写作" class="md-button md-button--accent">
               <span class="md-button__content">文案写作</span>
             </a>
-            <a href="{{ ' office-knowledge-base/' | url }}" title="办公协同" class="md-button md-button--accent">
-              <span class="md-button__content">团队协同</span>
+            <a href="{{ 'office-knowledge-base/' | url }}" title="办公协同" class="md-button md-button--accent">
+              <span class="md-button__content">办公协同</span>
             </a>
           </div>
         </div>
