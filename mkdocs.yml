@@ -190,7 +190,8 @@ nav:
     - 四、防火墙邮件拦截: security/4-firewall-email-interception.md
     - 五、“银狐”木马借钉钉通讯群进行社会工程学攻击的事件报告: security/5-silver-fox-social-engineering-attack-report.md
   - 文案写作:
-    - 文案写作: outline-the-docs-scheme/index.md
+    - 基础文案入门: outline-the-docs-scheme/index.md
+
   - 办公协同:
     - 办公协同: office-knowledge-base/index.md
   - Demo: demo/index.md
