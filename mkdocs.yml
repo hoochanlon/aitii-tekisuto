@@ -186,6 +186,7 @@ nav:
     - 信息安全: security/index.md
     - 一、利用“永恒之蓝”漏洞的挖矿蠕虫在隔离网络中的传播与处置: security/1-eternal-blue.md
     - 二、Synaptics病毒事件分析: security/2-synaptics-virus-event-analysis.md
+    - 三、云主机安全攻防实战：从暴力破解、挖矿木马到纵深防御体系的构建: security/3-dont-let-your-cloud-server-become-a-hackers-puppet.md
   - 文案写作:
     - 文案写作: outline-the-docs-scheme/index.md
   - 办公协同:
