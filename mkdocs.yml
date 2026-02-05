@@ -183,6 +183,7 @@ nav:
       - 一、一次因AD服务器断电导致的认证故障分析: datacom/troubleshooting/1-ad-server-power-off-authentication-failure-analysis.md
       - 二、一次网络环路事故：当“部分不通”演变为全网瘫痪: datacom/troubleshooting/2-network-loop-accident.md
       - 三、企业环境中代理上网异常的系统化排查与根因分析: datacom/troubleshooting/3-proxy-connectivity-troubleshooting-rca.md
+      - 四、关于加密沙盒环境下网页访问异常的排查分析与技术报告: datacom/troubleshooting/4-encrypted-sandbox-environment-web-access-abnormal-troubleshooting-and-technical-report.md
 
   - 信息安全:
     - 信息安全: security/index.md
