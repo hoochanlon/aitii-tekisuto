@@ -194,11 +194,15 @@ nav:
     - 五、“银狐”木马借钉钉通讯群进行社会工程学攻击的事件报告: security/5-silver-fox-social-engineering-attack-report.md
   
   - 文案写作:
-    - 基础文案入门: outline-the-docs-scheme/index.md
+    - 文案写作: outline-the-docs-scheme/intro-template/index.md
     - 一、驻点工程师岗位工作手册: outline-the-docs-scheme/intro-template/1-job-manual-of-on-site-engineer.md
     - 二、驻场IT运维服务季度报告: outline-the-docs-scheme/intro-template/2-IT-onsite-support-service-quarterly-report-2020Q3.md
     - 三、IT运维项目服务（投标）: outline-the-docs-scheme/intro-template/3-IT-onsite-support-service-bidding-book.md
-
+    - 预案模板参考:
+      - 一、业务持续性计划预案 - 服务器故障预案: outline-the-docs-scheme/plan-template/1-business-continuity-plan-server-failure-plan.md
+      - 二、业务持续性计划预案 - UPS应急演练方案: outline-the-docs-scheme/plan-template/2-business-continuity-plan-ups-emergency-drill-plan.md
+      - 三、业务持续性计划预案 - 网络故障应急方案: outline-the-docs-scheme/plan-template/3-business-continuity-plan-network-failure-emergency-plan.md
+      - 四、业务持续性计划预案 - 网络设备故障应急方案: outline-the-docs-scheme/plan-template/4-business-continuity-plan-network-device-failure-emergency-plan.md
   - 办公协同:
     - 办公协同: office-knowledge-base/index.md
   - Demo: demo/index.md
