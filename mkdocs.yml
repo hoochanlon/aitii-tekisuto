@@ -204,6 +204,8 @@ nav:
       - 三、业务持续性计划预案 - 网络故障应急方案: outline-the-docs-scheme/plan-template/3-business-continuity-plan-network-failure-emergency-plan.md
       - 四、业务持续性计划预案 - 网络设备故障应急方案: outline-the-docs-scheme/plan-template/4-business-continuity-plan-network-device-failure-emergency-plan.md
       - 五、业务持续性计划预案 - 专线故障预案: outline-the-docs-scheme/plan-template/5-business-continuity-plan-dedicated-line-failure-plan.md
+    - 整改模板参考:
+      - 一、信息安全监控整改报告: outline-the-docs-scheme/rectify-template/1-information-security-monitoring-rectification-report.md
   - 办公协同:
     - 办公协同: office-knowledge-base/index.md
   - Demo: demo/index.md
