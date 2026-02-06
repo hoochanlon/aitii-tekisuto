@@ -203,6 +203,7 @@ nav:
       - 二、业务持续性计划预案 - UPS应急演练方案: outline-the-docs-scheme/plan-template/2-business-continuity-plan-ups-emergency-drill-plan.md
       - 三、业务持续性计划预案 - 网络故障应急方案: outline-the-docs-scheme/plan-template/3-business-continuity-plan-network-failure-emergency-plan.md
       - 四、业务持续性计划预案 - 网络设备故障应急方案: outline-the-docs-scheme/plan-template/4-business-continuity-plan-network-device-failure-emergency-plan.md
+      - 五、业务持续性计划预案 - 专线故障预案: outline-the-docs-scheme/plan-template/5-business-continuity-plan-dedicated-line-failure-plan.md
   - 办公协同:
     - 办公协同: office-knowledge-base/index.md
   - Demo: demo/index.md
