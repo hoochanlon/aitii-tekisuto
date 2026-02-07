@@ -152,15 +152,18 @@ nav:
   - Home: index.md
   - AD域控:
     - 活动目录: ad/index.md
-    - 一、安装域控: ad/1-ad-anzhuang-yukong.md
-    - 二、磁盘分区管理: ad/2-ad-cipan-guanli.md
-    - 三、R430 服务器组硬件 RAID: ad/3-ad-r430-raid.md
-    - 四、安装 WSUS: ad/4-anzhuang_wsus.md
-    - 五、添加电脑到域测试组策略效果: ad/5-yu-ruanjian-xianzhi.md
-    - 六、使用组策略部署软件: ad/6-yu-ruanjian-anzhuang.md
-    - 七、添加备份域控制器实现容错: ad/7-beifen-yukong.md
-    - 八、将域控迁移到新买的服务器: ad/8-huanxin-yukong.md
-    - 九、域控及文件服务器迁移方案: ad/9-qianyi-yukong-fang-an.md
+    - 主干体系:
+      - 一、安装域控: ad/1-ad-anzhuang-yukong.md
+      - 二、磁盘分区管理: ad/2-ad-cipan-guanli.md
+      - 三、R430 服务器组硬件 RAID: ad/3-ad-r430-raid.md
+      - 四、安装 WSUS: ad/4-anzhuang_wsus.md
+      - 五、添加电脑到域测试组策略效果: ad/5-yu-ruanjian-xianzhi.md
+      - 六、使用组策略部署软件: ad/6-yu-ruanjian-anzhuang.md
+      - 七、添加备份域控制器实现容错: ad/7-beifen-yukong.md
+      - 八、将域控迁移到新买的服务器: ad/8-huanxin-yukong.md
+      - 九、域控及文件服务器迁移方案: ad/9-qianyi-yukong-fang-an.md
+    - 枝叶细节:
+      - 十、组策略常用软件下发，以及统一域用户壁纸: ad/10-group-policy-common-software-distribution-and-uniform-domain-user-wallpaper.md
     - 域控脚本:
       - Powershell介绍: ad/scripts-desc/index.md
       - 一、一键切换Windows系统版本与激活Windows及Office: ad/scripts-desc/1-win-offce-active.md
