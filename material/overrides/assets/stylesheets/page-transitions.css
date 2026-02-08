@@ -1,0 +1,107 @@
+/* 页面过渡动画样式 */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInListItem {
+  to {
+    opacity: 1;
+  }
+}
+
+/* 页面内容区域淡入动画和平滑显示 */
+.md-content__inner {
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+  will-change: opacity, transform;
+  /* 针对内容较短的页面，添加底部间距和最小高度 */
+  min-height: 400px;
+  padding-bottom: 2rem;
+}
+
+/* 未加载状态：初始隐藏，等待动画 */
+.md-content__inner:not(.loaded) {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+/* 确保内容区域有最小高度，避免突然变化 */
+.md-content {
+  min-height: calc(100vh - 12rem);
+  transition: min-height 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 页面加载时的平滑过渡 */
+.md-main__inner {
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* 页面切换时的淡出效果（通过JavaScript控制） */
+body.page-transitioning .md-content__inner {
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* 平滑滚动行为 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 页面加载完成后的淡入效果和性能优化 */
+.md-content__inner.loaded {
+  opacity: 1;
+  transform: translateY(0);
+  /* 动画完成后移除will-change以优化性能 */
+  will-change: auto;
+}
+
+/* 减少布局偏移（CLS - Cumulative Layout Shift） */
+.md-content__inner img,
+.md-content__inner video,
+.md-content__inner iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 表格和代码块不单独动画，跟随父容器动画 */
+.md-typeset table,
+.md-typeset pre {
+  animation: none;
+}
+
+/* 列表项依次淡入（轻微延迟，不会太花哨） */
+.md-content__inner ul > li,
+.md-content__inner ol > li {
+  opacity: 0;
+  animation: fadeInListItem 0.3s ease-out forwards;
+}
+
+.md-content__inner ul > li:nth-child(1),
+.md-content__inner ol > li:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.md-content__inner ul > li:nth-child(2),
+.md-content__inner ol > li:nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.md-content__inner ul > li:nth-child(3),
+.md-content__inner ol > li:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.md-content__inner ul > li:nth-child(n+4),
+.md-content__inner ol > li:nth-child(n+4) {
+  animation-delay: 0.25s;
+}
+

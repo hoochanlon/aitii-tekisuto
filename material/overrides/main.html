@@ -2,6 +2,7 @@
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.a2a27114.min.css' | url }}">
   <link rel="stylesheet" href="{{ 'assets/stylesheets/encrypt.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/page-transitions.css' | url }}">
   <script>
   (function(){
     var k = "encrypt:" + (window.location.pathname || "");
@@ -32,4 +33,5 @@
   {{ super() }}
   <script src="{{ 'assets/javascripts/custom.a0168cc8.min.js' | url }}"></script>
   <script src="{{ 'assets/javascripts/encrypt.js' | url }}"></script>
+  <script src="{{ 'assets/javascripts/page-transitions.js' | url }}"></script>
 {% endblock %}
