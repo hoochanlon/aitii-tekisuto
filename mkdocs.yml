@@ -163,7 +163,8 @@ nav:
       - 八、将域控迁移到新买的服务器: ad/8-huanxin-yukong.md
       - 九、域控及文件服务器迁移方案: ad/9-qianyi-yukong-fang-an.md
     - 枝叶细节:
-      - 十、组策略常用软件下发，以及统一域用户壁纸: ad/10-group-policy-common-software-distribution-and-uniform-domain-user-wallpaper.md
+      - 一、 H3C INode 上网许可与域控创建用户及文件夹授权: ad/10-inode-and-domain-access-manager.md
+      - xx、组策略常用软件下发，以及统一域用户壁纸: ad/xx-group-policy-common-software-distribution-and-uniform-domain-user-wallpaper.md
     - 域控脚本:
       - Powershell介绍: ad/scripts-desc/index.md
       - 一、一键切换Windows系统版本与激活Windows及Office: ad/scripts-desc/1-win-offce-active.md
