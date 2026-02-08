@@ -125,7 +125,7 @@ def on_page_content(
         payload_url = f"{base_rel}assets/encrypted/{unique_id}.json?v={payload_hash}"
         
         escaped_password = html_module.escape(password, quote=True)
-        password_hint = (page.meta.get("password_hint") if page.meta else None) or "请输入密码以查看内容"
+        password_hint = (page.meta.get("password-hint") if page.meta else None) or "请输入密码以查看内容"
         escaped_hint = html_module.escape(str(password_hint).strip(), quote=True)
         encrypt_html_structure = f'''<div class="encryption-container" id="{container_id}" data-payload-url="{payload_url}" data-password="{escaped_password}">
   <div class="encrypt-prompt">
