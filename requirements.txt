@@ -33,4 +33,5 @@ colorama>=0.4
 paginate>=0.5
 backrefs>=5.7.post1
 requests>=2.26
+cryptography>=41.0.0
 

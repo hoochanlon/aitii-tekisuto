@@ -1,6 +1,20 @@
 {% extends "base.html" %}
 {% block extrahead %}
   <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.a2a27114.min.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/encrypt.css' | url }}">
+  <script>
+  (function(){
+    var k = "encrypt:" + (window.location.pathname || "");
+    try {
+      var s = localStorage.getItem(k);
+      if (s) {
+        var o = JSON.parse(s);
+        if (o && typeof o.expire === "number" && Date.now() < o.expire)
+          document.documentElement.classList.add("encrypt-auto-unlock");
+      }
+    } catch (_) {}
+  })();
+  </script>
 {% endblock %}
 {# 
   {% block announce %}
@@ -17,4 +31,5 @@
 {% block scripts %}
   {{ super() }}
   <script src="{{ 'assets/javascripts/custom.a0168cc8.min.js' | url }}"></script>
+  <script src="{{ 'assets/javascripts/encrypt.js' | url }}"></script>
 {% endblock %}

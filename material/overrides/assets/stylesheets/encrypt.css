@@ -1,0 +1,196 @@
+/* 加密内容样式 */
+
+/* 有未过期的已存密码时，首屏即隐藏密码框，避免残影（由 head 内联脚本设置 html.encrypt-auto-unlock） */
+html.encrypt-auto-unlock .encryption-container .encrypt-prompt {
+  display: none !important;
+}
+
+/* 加密页未解锁时仅隐藏右侧目录（TOC）的 scrollwrap，不影响左侧导航等其它 .md-sidebar__scrollwrap */
+body:has(.encryption-container):not(.encrypted-page-unlocked) .md-sidebar.md-sidebar--secondary .md-sidebar__scrollwrap {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+body.encrypted-page-unlocked .md-sidebar.md-sidebar--secondary .md-sidebar__scrollwrap {
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  position: relative !important;
+  left: auto !important;
+}
+
+.encryption-container {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 260px;
+}
+
+.encrypt-prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  max-width: 360px;
+  width: 100%;
+  text-align: center;
+}
+
+.encrypt-icon {
+  color: var(--md-primary-fg-color, #4051b5);
+  margin-bottom: 0.15rem;
+}
+
+.encrypt-icon svg {
+  width: 48px;
+  height: 48px;
+}
+
+.encrypt-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--md-default-fg-color);
+}
+
+.encrypt-hint {
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 0.5rem 0;
+}
+
+.encrypt-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.encrypt-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.encrypt-input {
+  width: 100%;
+  padding: 0.5rem 2.25rem 0.5rem 0.65rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.4rem;
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font-size: 0.95rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+}
+
+.encrypt-input:focus {
+  outline: none;
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 3px var(--md-primary-fg-color--transparent, rgba(64, 81, 181, 0.1));
+}
+
+.encrypt-toggle-password {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  color: var(--md-default-fg-color--light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s;
+}
+
+.encrypt-toggle-password:hover {
+  color: var(--md-default-fg-color);
+}
+
+.encrypt-toggle-password .eye-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.encrypt-button {
+  width: 100%;
+  padding: 0.55rem 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: var(--md-primary-fg-color, #4051b5);
+  color: var(--md-primary-bg-color, #fff);
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.encrypt-button:hover {
+  background-color: var(--md-primary-fg-color--light, #4d5fc7);
+}
+
+.encrypt-button:active {
+  transform: scale(0.98);
+}
+
+.encrypt-error {
+  color: var(--md-error-fg-color, #d32f2f);
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.encrypt-content {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* 暗色模式适配 */
+[data-md-color-scheme="slate"] .encrypt-prompt {
+  background-color: transparent;
+}
+
+[data-md-color-scheme="slate"] .encrypt-input {
+  border-color: var(--md-default-fg-color--lightest);
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+[data-md-color-scheme="slate"] .encrypt-icon {
+  color: var(--md-primary-fg-color);
+}
+
+/* 隐藏加密页面的 View source 和 Edit 按钮 */
+.encryption-container ~ .md-content__inner .md-content__button,
+.encryption-container ~ .md-content__inner .md-content__button.md-icon,
+.encryption-container ~ .md-content__inner .md-content__edit,
+.encryption-container ~ .md-content__inner [title="Edit this page"],
+.encryption-container ~ .md-content__inner [title="View source of this page"] {
+  display: none !important;
+}
+
+/* 如果加密容器在页面中，隐藏整个页面的编辑按钮 */
+body:has(.encryption-container) .md-content__button,
+body:has(.encryption-container) .md-content__button.md-icon,
+body:has(.encryption-container) .md-content__edit,
+body:has(.encryption-container) [title="Edit this page"],
+body:has(.encryption-container) [title="View source of this page"] {
+  display: none !important;
+}
+
+/* 更具体的选择器，确保隐藏 md-content__button md-icon */
+.encryption-container ~ .md-content__inner .md-content__button.md-icon,
+body:has(.encryption-container) .md-content__button.md-icon {
+  display: none !important;
+}

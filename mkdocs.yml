@@ -69,7 +69,7 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
-      minify_html: true
+      minify_html: false
   - mermaid2:
       version: 10.0.2
 
@@ -77,6 +77,7 @@ plugins:
 hooks:
   - material/overrides/hooks/shortcodes.py
   - material/overrides/hooks/translations.py
+  - material/overrides/hooks/encrypt.py
 
 # Additional configuration
 extra:
@@ -212,5 +213,7 @@ nav:
       - 一、信息安全监控整改报告: outline-the-docs-scheme/rectify-template/1-information-security-monitoring-rectification-report.md
   - 办公协同:
     - 办公协同: office-knowledge-base/index.md
-  - Demo: demo/index.md
+  - Demo: 
+    - Demo: demo/index.md
+    - 文章加密: demo/encrypt.md
   - Blog: https://hoochanlon.moe
