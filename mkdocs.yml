@@ -164,8 +164,14 @@ nav:
       - 八、将域控迁移到新买的服务器: ad/8-huanxin-yukong.md
       - 九、域控及文件服务器迁移方案: ad/9-qianyi-yukong-fang-an.md
     - 枝叶细节:
-      - 一、 H3C INode 上网许可与域控创建用户及文件夹授权: ad/10-inode-and-domain-access-manager.md
-      - xx、组策略常用软件下发，以及统一域用户壁纸: ad/xx-group-policy-common-software-distribution-and-uniform-domain-user-wallpaper.md
+      - 十、 H3C INode 上网许可与域控创建用户及文件夹授权: ad/10-inode-and-domain-access-manager.md
+      - 十一、域控组织组织单元人员迁移: ad/11-domain-organization-unit-member-migration.md
+      - 十二、删除用户共享文件夹权限: ad/12-delete-user-shared-folder-permission.md
+      - 十三、批量添加、删除域用户及导出: ad/13-batch-add-delete-domain-user-and-export.md
+      - 十四、组织单元与域用户还原: ad/14-domain-organization-unit-and-user-restoration.md
+      - 十五、批量对人员进行文件夹授权: ad/15-batch-add-permission-to-users-folder.md
+      - 十六、文件夹安全权限转换对应共享权限: ad/16-file-folder-security-permission-conversion-corresponding-shared-permission.md
+      - 十七、组策略常用软件下发，以及统一域用户壁纸: ad/17-group-policy-common-software-distribution-and-uniform-domain-user-wallpaper.md
     - 域控脚本:
       - Powershell介绍: ad/scripts-desc/index.md
       - 一、一键切换Windows系统版本与激活Windows及Office: ad/scripts-desc/1-win-offce-active.md
