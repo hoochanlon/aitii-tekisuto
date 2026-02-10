@@ -190,6 +190,10 @@ nav:
       - 一、OA办公网络接入层运营: datacom/pc/1-oa-office-network-access-layer-operation.md
       - 二、 网络设备组装发展过程略: datacom/pc/2-network-device-assembly-development-process.md
       - 三、一篇全文让你彻底理清IP地址、子网掩码、网关: datacom/pc/3-ip-address-subnet-mask-gateway.md
+    - 网络设备配置备份:
+      - 一、交换机配置备份: datacom/backup/1-switch-configuration-backup.md
+      - 二、防火墙配置备份: datacom/backup/2-firewall-configuration-backup.md
+      
     - 故障排除:
       - 一、一次因AD服务器断电导致的认证故障分析: datacom/troubleshooting/1-ad-server-power-off-authentication-failure-analysis.md
       - 二、一次网络环路事故：当“部分不通”演变为全网瘫痪: datacom/troubleshooting/2-network-loop-accident.md
