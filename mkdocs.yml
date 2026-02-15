@@ -224,10 +224,19 @@ nav:
       - 五、业务持续性计划预案 - 专线故障预案: outline-the-docs-scheme/plan-template/5-business-continuity-plan-dedicated-line-failure-plan.md
     - 整改模板参考:
       - 一、信息安全监控整改报告: outline-the-docs-scheme/rectify-template/1-information-security-monitoring-rectification-report.md
+      - 二、监控专线故障报告: outline-the-docs-scheme/rectify-template/2-monitoring-dedicated-line-failure-report.md
       - 三、xxxx故障整改报告: outline-the-docs-scheme/rectify-template/3-xxxx-failure-rectification-report.md
     - 演练模版参考:
       - 一、UPS切换演练结果报告: outline-the-docs-scheme/drill-template/1-ups-switch-drill-result-report.md
       - 二、网络设备与专线应急演练报告: outline-the-docs-scheme/drill-template/2-network-device-and-dedicated-line-emergency-drill-report.md
+    - 邮件汇报模板参考:
+      - 内部开展XX工作会议通知: outline-the-docs-scheme/email-template/1-internal-XX-meeting-notification.md
+      - 关于补充采购办公电脑及相关授权的申请: outline-the-docs-scheme/email-template/2-application-for-additional-purchase-of-office-computers-and-related-authorizations.md
+      - 【加班申请】关于x月x日xx项目配合甲方开展xx项目演练的加班申请: outline-the-docs-scheme/email-template/3-application-for-overtime-work-due-to-xx-project-xx-project-drill.md
+      - 有关XX撤场设备处置事项申请: outline-the-docs-scheme/email-template/4-application-for-the-disposal-of-xx-project-equipment-due-to-xx-project-termination.md
+      - 关于XX运营商专线故障处理情况的报备: outline-the-docs-scheme/email-template/5-report-on-the-processing-of-xx-operator-dedicated-line-failure.md
+      - 【专线割接报备】XX运营商专线割接: outline-the-docs-scheme/email-template/6-dedicated-line-cutover-report.md
+      - 【专线测试报备】XX备线专线参数测试: outline-the-docs-scheme/email-template/7-dedicated-line-parameter-test-report.md
   - 办公协同:
     - 办公协同: office-knowledge-base/index.md
   - Demo: 
