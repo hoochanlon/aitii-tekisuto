@@ -201,7 +201,6 @@ nav:
       - 二、一次网络环路事故：当“部分不通”演变为全网瘫痪: datacom/troubleshooting/2-network-loop-accident.md
       - 三、企业环境中代理上网异常的系统化排查与根因分析: datacom/troubleshooting/3-proxy-connectivity-troubleshooting-rca.md
       - 四、关于加密沙盒环境下网页访问异常的排查分析与技术报告: datacom/troubleshooting/4-encrypted-sandbox-environment-web-access-abnormal-troubleshooting-and-technical-report.md
-
   - 信息安全:
     - 信息安全: security/index.md
     - 一、利用“永恒之蓝”漏洞的挖矿蠕虫在隔离网络中的传播与处置: security/1-eternal-blue.md
@@ -210,7 +209,6 @@ nav:
     - 四、防火墙邮件拦截: security/4-firewall-email-interception.md
     - 五、“银狐”木马借钉钉通讯群进行社会工程学攻击的事件报告: security/5-silver-fox-social-engineering-attack-report.md
     - X、【特别篇】机房巡检工作与UPS应急演练: security/x-special-chapter-room-inspection-and-ups-emergency-drill.md
-  
   - 文案写作:
     - 文案写作: outline-the-docs-scheme/intro-template/index.md
     - 一、驻点工程师岗位工作手册: outline-the-docs-scheme/intro-template/1-job-manual-of-on-site-engineer.md
