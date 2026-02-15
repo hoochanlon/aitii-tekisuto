@@ -190,6 +190,9 @@ nav:
       - 一、OA办公网络接入层运营: datacom/pc/1-oa-office-network-access-layer-operation.md
       - 二、 网络设备组装发展过程略: datacom/pc/2-network-device-assembly-development-process.md
       - 三、一篇全文让你彻底理清IP地址、子网掩码、网关: datacom/pc/3-ip-address-subnet-mask-gateway.md
+    - 设备网络:
+      -  一、主备堆叠三层网络总体理论: datacom/device/1-master-standby-stack-three-layer-network-theory.md
+      -  二、主备堆叠三层网络速成理解: datacom/device/2-master-standby-stack-three-layer-network-fast-track.md
     - 网络设备配置备份:
       - 一、交换机配置备份: datacom/backup/1-switch-configuration-backup.md
       - 二、防火墙配置备份: datacom/backup/2-firewall-configuration-backup.md
@@ -221,6 +224,10 @@ nav:
       - 五、业务持续性计划预案 - 专线故障预案: outline-the-docs-scheme/plan-template/5-business-continuity-plan-dedicated-line-failure-plan.md
     - 整改模板参考:
       - 一、信息安全监控整改报告: outline-the-docs-scheme/rectify-template/1-information-security-monitoring-rectification-report.md
+      - 二、xxxx故障整改报告: outline-the-docs-scheme/rectify-template/2-xxxx-failure-rectification-report.md
+    - 演练模版参考:
+      - 一、UPS切换演练结果报告: outline-the-docs-scheme/drill-template/1-ups-switch-drill-result-report.md
+      - 二、网络设备与专线应急演练报告: outline-the-docs-scheme/drill-template/2-network-device-and-dedicated-line-emergency-drill-report.md
   - 办公协同:
     - 办公协同: office-knowledge-base/index.md
   - Demo: 
