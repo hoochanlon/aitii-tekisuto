@@ -191,12 +191,11 @@ nav:
       - 二、 网络设备组装发展过程略: datacom/pc/2-network-device-assembly-development-process.md
       - 三、一篇全文让你彻底理清IP地址、子网掩码、网关: datacom/pc/3-ip-address-subnet-mask-gateway.md
     - 设备网络:
-      -  一、主备堆叠三层网络总体理论: datacom/device/1-master-standby-stack-three-layer-network-theory.md
-      -  二、主备堆叠三层网络速成理解: datacom/device/2-master-standby-stack-three-layer-network-fast-track.md
+      - 一、主备堆叠三层网络总体理论: datacom/device/1-master-standby-stack-three-layer-network-theory.md
+      - 二、主备堆叠三层网络速成理解: datacom/device/2-master-standby-stack-three-layer-network-fast-track.md
     - 网络设备配置备份:
       - 一、交换机配置备份: datacom/backup/1-switch-configuration-backup.md
       - 二、防火墙配置备份: datacom/backup/2-firewall-configuration-backup.md
-      
     - 故障排除:
       - 一、一次因AD服务器断电导致的认证故障分析: datacom/troubleshooting/1-ad-server-power-off-authentication-failure-analysis.md
       - 二、一次网络环路事故：当“部分不通”演变为全网瘫痪: datacom/troubleshooting/2-network-loop-accident.md
@@ -210,6 +209,7 @@ nav:
     - 三、云主机安全攻防实战：从暴力破解、挖矿木马到纵深防御体系的构建: security/3-dont-let-your-cloud-server-become-a-hackers-puppet.md
     - 四、防火墙邮件拦截: security/4-firewall-email-interception.md
     - 五、“银狐”木马借钉钉通讯群进行社会工程学攻击的事件报告: security/5-silver-fox-social-engineering-attack-report.md
+    - X、【特别篇】机房巡检工作与UPS应急演练: security/x-special-chapter-room-inspection-and-ups-emergency-drill.md
   
   - 文案写作:
     - 文案写作: outline-the-docs-scheme/intro-template/index.md
