@@ -227,6 +227,9 @@ nav:
     - 演练模版参考:
       - 一、UPS切换演练结果报告: outline-the-docs-scheme/drill-template/1-ups-switch-drill-result-report.md
       - 二、网络设备与专线应急演练报告: outline-the-docs-scheme/drill-template/2-network-device-and-dedicated-line-emergency-drill-report.md
+    # - 项目文档参考:
+    #   - 一、XX项目机房与职场搬迁计划: outline-the-docs-scheme/project-template/1-xx-project-data-center-and-office-move-plan.md
+
     - 邮件汇报模板参考:
       - 内部开展XX工作会议通知: outline-the-docs-scheme/email-template/1-internal-XX-meeting-notification.md
       - 关于补充采购办公电脑及相关授权的申请: outline-the-docs-scheme/email-template/2-application-for-additional-purchase-of-office-computers-and-related-authorizations.md
