@@ -11,7 +11,9 @@
 
 不由得感慨，当初早些年的证书如今却成为了笑话...
 
+<!-- 
 ![](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQqQVpgYXbxdSadz-3BaCS4pGNJ_sFXwACth0AAqouEFRzeFy1RMlF4DgE.png)
+-->
 
 当应试成了八股，考证到最后也只是拼家底，拼精力，拼时间的产物，在这个泡沫时代，花了大几千上几万不说，可到头来却是一场空...
 
