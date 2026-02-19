@@ -240,7 +240,8 @@ nav:
       - 【专线割接报备】XX运营商专线割接: outline-the-docs-scheme/email-template/6-dedicated-line-cutover-report.md
       - 【专线测试报备】XX备线专线参数测试: outline-the-docs-scheme/email-template/7-dedicated-line-parameter-test-report.md
   - 办公协同:
-    - 办公协同: office-knowledge-base/index.md
+    - 新人办公基础设备使用入门: office-knowledge-base/new-employee-office-basic-equipment-usage-manual.md
+    - 测试文章: office-knowledge-base/test.md
   - Demo: 
     - Demo: demo/index.md
     - 文章加密: demo/encrypt.md
