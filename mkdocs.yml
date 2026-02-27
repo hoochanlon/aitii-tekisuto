@@ -46,7 +46,7 @@ theme:
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -181,7 +181,7 @@ nav:
       - 五、域用户人员增删、文件授权、组织单元与域用户恢复: ad/scripts-desc/5-aduser-and-permission-management.md
       - 六、域用户导出到txt文件汇总: ad/scripts-desc/6-aduser-export-to-txt.md
       - 七、Windows基线检查脚本: ad/scripts-desc/7-windows-baseline-script.md
-  - 数据通信: 
+  - 数据通信:
     - Datacom: datacom/index.md
     - 电话网络:
       - 一、办公室电话接入部署: datacom/phone/1-office-phone-access-deployment.md
@@ -193,6 +193,7 @@ nav:
     - 设备网络:
       - 一、主备堆叠三层网络总体理论: datacom/device/1-master-standby-stack-three-layer-network-theory.md
       - 二、主备堆叠三层网络速成理解: datacom/device/2-master-standby-stack-three-layer-network-fast-track.md
+      - 三、网络配置删减规则: datacom/device/3-network-configuration-reduction-rules.md
     - 网络设备配置备份:
       - 一、交换机配置备份: datacom/backup/1-switch-configuration-backup.md
       - 二、防火墙配置备份: datacom/backup/2-firewall-configuration-backup.md
@@ -242,7 +243,7 @@ nav:
   - 办公协同:
     - 新人办公基础设备使用入门: office-knowledge-base/new-employee-office-basic-equipment-usage-manual.md
     - 测试文章: office-knowledge-base/test.md
-  - Demo: 
+  - Demo:
     - Demo: demo/index.md
     - 文章加密: demo/encrypt.md
   - Blog: https://hoochanlon.moe
